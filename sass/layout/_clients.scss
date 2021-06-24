@@ -1,11 +1,11 @@
-.header-our-clients {
+.clients__header {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-.clients-container{
+.clients{
   padding-top: 94px;
   padding-bottom: 94px;
 }  
@@ -16,7 +16,7 @@
   margin-top: 50px; 
 }
   
-.clients-list-link{
+.clients__link{
   display: flex;
   align-items: center;
   justify-content: center;

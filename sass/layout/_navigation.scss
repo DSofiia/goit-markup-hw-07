@@ -3,12 +3,12 @@
   align-items: center;
 }
 
-.navigation-link{
+.navigation__link{
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.list-menu{
+.navigation__list{
   list-style: none;
   font-weight: 500;
   line-height: 1.14;
@@ -20,12 +20,12 @@
     color: #212121;
   }
   
-  & .current {
+  & .navigation__list--current {
     color: var(--accent-color);
   }
 }
 
-.current{
+.navigation__list--current{
   position: relative;
 
   &:after {

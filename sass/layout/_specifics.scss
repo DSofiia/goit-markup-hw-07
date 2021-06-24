@@ -1,4 +1,4 @@
-.list-specifics {
+.specifics__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -22,13 +22,13 @@
   padding-bottom: 94px;
 }
 
-.specifics-item {
+.specifics__item {
   margin-left: 30px;
   margin-top: 30px;
   max-width: 270px;
 }
 
-.list-specifics-icons{
+.specifics__list-icons{
     display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -36,14 +36,13 @@
   margin-bottom: 30px;
 }
   
-.specifics-item-icon {
+.specifics__item-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
-  margin-top: 30px;
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
   border-radius: 4px;
+  margin-bottom: 30px;
 }

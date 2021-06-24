@@ -11,7 +11,7 @@
     padding:40px 40px 40px 40px;
     }
     
-.modal-close-btn{
+.modal__close-btn{
     position: absolute;
     width: 30px;
     height: 30px;
@@ -29,7 +29,7 @@
     &:hover{
         border:1px solid #2196f3;
 
-        & .close-btn-icon{
+        & .modal__close-btn-icon{
             fill: var(--accent-color);
           }
     } 

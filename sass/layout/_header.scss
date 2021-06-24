@@ -3,7 +3,7 @@
   margin-left: 0px;
   margin-top: 0px;
 
-  & .list-contact {
+  & .contact__list {
     margin-left: auto;
   }
 }
@@ -12,7 +12,7 @@
   border: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 
@@ -23,11 +23,11 @@
   }
 }
 
-.menu-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.list-contact {
+.contact__list {
   display: flex;
   align-items: center;
   list-style: none;
@@ -52,15 +52,15 @@
   }
 }
 
-.list-contact-icon{
+.contact__list-icon{
   fill: var(--text-grey-color);
   margin-right: 10px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  .list-contact .menu-item:hover &,
-  .list-contact .menu-item:focus &
+  .contact__list .navigation__item:hover &,
+  .contact__list .navigation__item:focus &
   {
     fill: var(--accent-color);
   }
